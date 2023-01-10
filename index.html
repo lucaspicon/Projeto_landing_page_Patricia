@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon_io/favicon-32x32.png" type="image/x-icon">
+        
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Patricia Otake</title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="profile container">
+            <!--Tema do botao-->
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+            <div class="profile__container grid">
+                <div class="profile__data">
+                    <div class="profile__border">
+                        <div class="profile__perfil">
+                            <img src="assets/img/perfil_patricia1.png">
+                        </div>
+                    </div>
+
+                    <h2 class="profile__nome">Patricia Sauri Otake</h2>
+                    <h3 class="profile__profissão">Fonoaudióloga</h3>
+
+                    <ul class="profile__social">
+                        <a href="https://www.instagram.com/" target="_blank" class="profile__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://br.linkedin.com/" target="_blank" class="profile__social-link">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+                        <!--<a href="https://goo.gl/maps/cWHNgpU6vMiUhXGj8" target="_blank" class="profile__social-link">
+                            <i class="ri-map-pin-line"></i>
+                        </a>-->
+                    </ul>
+                </div>
+
+                <div class="profile__info grid">
+                    <div class="profile__info-grupo">
+                        <h3 class="profile__info-numero">6</h3>
+                        <p class="profile__info-descricao">
+                            Anos de <br> trabalho
+                        </p>
+                    </div>
+                    <div class="profile__info-grupo">
+                        <h3 class="profile__info-numero">+27</h3>
+                        <p class="profile__info-descricao">
+                            Cursos e <br> especializações
+                        </p>
+                    </div>
+                    <div class="profile__info-grupo">
+                        <h3 class="profile__info-numero">+250</h3>
+                        <p class="profile__info-descricao">
+                            Pacientes <br> atendidos
+                        </p>
+                    </div>
+                </div>
+
+                <div class="profile__botao">
+                    <a download="" href="assets/pdf/CV Patricia S. Otake.pdf" class="botao">
+                        Download CV <i class="ri-download-2-line"></i>
+                    </a>
+
+                    <div class="profile__botao-pequeno">
+                    <a href="https://api.whatsapp.com/send?phone=+5547989003114&text=Olá, gostaria de mais informações!" target="_blank" class="botao botao__pequeno botao__cinza">
+                        <i class="ri-whatsapp-line"></i>
+                    </a>          
+
+                    <a href="https://goo.gl/maps/cWHNgpU6vMiUhXGj8" target="_blank" class="botao botao__pequeno botao__cinza">
+                        <i class="ri-map-pin-line"></i>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <section class="filtros container">
+                <!--=============== FILTROS - TABS ===============-->
+                <ul class="filtros__content">
+                    <button class="filtros__botao filtros-tab-ativo" data-target="#atendimentos">
+                        Atendimentos
+                    </button>
+                    <button class="filtros__botao" data-target="#cursos">
+                        Formação e<br>Cursos
+                    </button>
+                </ul>
+
+                <div class="filtros__sections">
+                    <!--=============== ATENDIMENTOS ===============-->
+                    <div class="atendimentos__content grid filtros__ativo" data-content id="atendimentos">
+                    <article class="atendimentos__card">
+                        <img src="assets/img/meramente_ilustrativa.png" alt="" class="atendimentos__img">
+
+                        <div class="atendimentos__modal">
+                            <div>
+                                <span class="atendimentos__subtitulo">Terapia</span>
+                                <h3 class="atendimentos__titulo">Terapia1</h3>
+                                
+                                <a href="#" class="atendimentos__botao botao botao__pequeno">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="atendimentos__card">
+                        <img src="assets/img/meramente_ilustrativa2.png" alt="" class="atendimentos__img">
+
+                        <div class="atendimentos__modal">
+                            <div>
+                                <span class="atendimentos__subtitulo">Terapia</span>
+                                <h3 class="atendimentos__titulo">Terapia1</h3>
+                                <a href="" class="atendimentos__botao botao botao__pequeno">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="atendimentos__card">
+                        <img src="assets/img/meramente_ilustrativa3.png" alt="" class="atendimentos__img">
+
+                        <div class="atendimentos__modal">
+                            <div>
+                                <span class="atendimentos__subtitulo">Terapia</span>
+                                <h3 class="atendimentos__titulo">Terapia1</h3>
+                                <a href="" class="atendimentos__botao botao botao__pequeno">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="atendimentos__card">
+                        <img src="assets/img/meramente_ilustrativa4.png" alt="" class="atendimentos__img">
+
+                        <div class="atendimentos__modal">
+                            <div>
+                                <span class="atendimentos__subtitulo">Terapia</span>
+                                <h3 class="atendimentos__titulo">Terapia1</h3>
+                                <a href="" class="atendimentos__botao botao botao__pequeno">
+                                    <i class="ri-link"></i>    
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    </div>    
+
+                    <!--=============== CURSOS ===============-->
+                    <div class="cursos__content grid " data-content id="cursos">
+                        <div class="cursos__area">
+                            <h3 class="cursos__titulo">
+                                Fonoaudiologia
+                            </h3>
+
+                            <div class="cursos__box">
+                                <div class="cursos__grupo">
+                                    <div class="cursos__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="cursos__nome">Graduação em Fonoaudiologia</h3>
+                                            <span class="cursos__nivel">Concluído em 2016</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="cursos__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="cursos__nome">Pós Graduação em Audiologia <br> Clínica e Ocupacional</h3>
+                                            <span class="cursos__nivel">Concluído em 2022</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="cursos__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="cursos__nome">Pós Graduanda em Terapia ABA para <br> Autismo e Deficiências Intelectuais</h3>
+                                            <span class="cursos__nivel">Conclusão em 2024</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="cursos__grupo">
+                                    <div class="cursos__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="cursos__nome">Intervenção baseada no modelo Denver</h3>
+                                            <span class="cursos__nivel">Conclusão em 2022</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="cursos__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="cursos__nome">Avaliação Fonoaudiológica de <br> Linguagem infantil – 42 horas</h3>
+                                            <span class="cursos__nivel">Concluido em 2020</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="cursos__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="cursos__nome">Teste de Desempenho Escolar II </h3>
+                                            <span class="cursos__nivel">Concluido em 2021</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cursos__area">
+                            <h3 class="cursos__titulo">
+                                Fonoaudiologia
+                            </h3>
+
+                            <div class="cursos__box">
+                                <div class="cursos__grupo">
+                                    <div class="cursos__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="cursos__nome">Fonoaudiologia</h3>
+                                            <span class="cursos__nivel">Concluído em 2016</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="cursos__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="cursos__nome">Pós Graduação em Audiologia <br> Clínica e Ocupacional</h3>
+                                            <span class="cursos__nivel">Concluído em 2022</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="cursos__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="cursos__nome">Pós Graduanda em Terapia ABA para <br> Autismo e Deficiências Intelectuais</h3>
+                                            <span class="cursos__nivel">Conclusão em 2024</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="cursos__grupo">
+                                    <div class="cursos__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="cursos__nome">Intervenção baseada no modelo Denver</h3>
+                                            <span class="cursos__nivel">Conclusão em 2022</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="cursos__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="cursos__nome">Avaliação Fonoaudiológica de <br> Linguagem infantil – 42 horas</h3>
+                                            <span class="cursos__nivel">Concluido em 2020</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="cursos__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="cursos__nome">Teste de Desempenho Escolar II </h3>
+                                            <span class="cursos__nivel">Concluido em 2021</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </section>
+        </main>
+
+        <!--=============== RODAPÉ ===============-->
+        <footer class="footer container">
+            <span class="footer__copy">
+                &#169; Lucas Picon. All rigths reserved
+            </span>            
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
